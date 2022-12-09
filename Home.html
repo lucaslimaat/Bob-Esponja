@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personagens Bob Esponja</title>
+  </head>
+  <body>
+    <div class="header">
+      <p>Personagens</p>
+    </div>
+
+    <div class="destaque">
+      <p class="frase">
+        Conheça os personagens de <font color="#ffff36"> Bob Esponja </font>
+      </p>
+      <img src="assets/bobesponja.png" class="imgbob" />
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#fafafa"
+        fill-opacity="1"
+        d="M0,192L48,165.3C96,139,192,85,288,90.7C384,96,480,160,576,160C672,160,768,96,864,96C960,96,1056,160,1152,160C1248,160,1344,96,1392,64L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+
+    <div class="sobre">
+      <div class="div_img_sobre">
+        <img src="assets/foto-seriado.jpg" class="imgsobre" />
+      </div>
+
+      <div class="sobre_informacoes">
+        <p class="title">Sobre a animação</p>
+        <p class="sobre-texto">
+          Bob Esponja é uma animação onde uma esponja-do-mar chamada Bob Esponja
+          Calça Quadrada mora com seu caracol de estimação na Fenda do Biquíni,
+          no fundo do oceano. Bob trabalha no Siri Cascudo e, nas horas vagas,
+          vive arrumando confusões com seu melhor amigo, a estrela-do-mar
+          Patrick.
+        </p>
+      </div>
+    </div>
+
+    <div id="personagens">
+      <script>
+        let divPersonagens = document.querySelector("#personagens");
+
+        fetch("dados.json").then((response) => {
+          response.json().then((dados) => {
+            dados.personagens.map((personagem) => {
+              divPersonagens.innerHTML += `<div class = "layout-info"> 
+              <img class = "product-photo" src = "${personagem.imagem}">
+              <div class = "list"> Nome: ${personagem.nome} <br> </br> Gênero: ${personagem.gênero} <br> </br> Espécie: ${personagem.Espécie} <br> </br> Profissão: ${personagem.Profissão}  </div>
+            </div>`;
+            });
+          });
+        });
+      </script>
+    </div>
+
+    <div class="footer">
+      © 2022 Personagens Bob Esponja. Todos os direitos reservados.
+    </div>
+  </body>
+</html>

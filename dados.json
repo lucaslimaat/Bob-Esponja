@@ -1,0 +1,74 @@
+{
+    "personagens": [
+        {
+            "nome": "Bob Esponja Calça Quadrada",
+            "gênero": "Masculino",
+            "Espécie": "Esponja do mar",
+            "Profissão": "Mestre Cuca do Siri Cascudo",
+            "imagem": "./assets/bobesponja.png"
+        },
+        {
+            "nome": "Patrick Estrela",
+            "gênero": "Masculino",
+            "Espécie": "Estrela-do-mar",
+            "Profissão": "Desempregado",
+            "imagem": "./assets/patrick.png"
+        },
+        {
+            "nome": "Lula Molusco Quincy Tentaculos",
+            "gênero": "Masculino",
+            "Espécie": "Polvo",
+            "Profissão": "Caixa do Siri Cascudo",
+            "imagem": "./assets/lulamolusco.webp"
+        },
+        {
+            "nome": "Sandy Bochechas",
+            "gênero": "Feminino",
+            "Espécie": "Esquilo",
+            "Profissão": "Cientista",
+            "imagem": "./assets/sandy.webp"
+        },
+        {
+            "nome": "Gary",
+            "gênero": "Masculino",
+            "Espécie": "Caracol Marinho",
+            "Profissão": "Não tem",
+            "imagem": "./assets/gary.webp"
+        },
+        {
+            "nome": "Eugene Hood Sirigueijo",
+            "gênero": "Masculino",
+            "Espécie": "Siri do mar vermelho",
+            "Profissão": "Gerente do Siri Cascudo",
+            "imagem": "./assets/sirigueijo.webp"
+        },
+        {
+            "nome": "Sheldon J. Plankton",
+            "gênero": "Masculino",
+            "Espécie": "Copépode Planctônico",
+            "Profissão": "Dono do Balde de Lixo",
+            "imagem": "./assets/plankton.webp"
+        },
+        {
+            "nome": "Karen Plankton",
+            "gênero": "Feminino",
+            "Espécie": "Computador",
+            "Profissão": "Ajudante do Balde de Lixo",
+            "imagem": "./assets/karen.webp"
+        },
+        {
+            "nome": "Senhora Puff",
+            "gênero": "Feminino",
+            "Espécie": "Baiacu",
+            "Profissão": "Professora",
+            "imagem": "./assets/professora.png"
+        },
+        {
+            "nome": "Pérola Sirigueijo",
+            "gênero": "Feminino",
+            "Espécie": "Baleia",
+            "Profissão": "Desempregada",
+            "imagem": "./assets/perola.webp"
+        }
+    ]
+}

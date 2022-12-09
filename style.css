@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 72px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.destaque {
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.frase {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.imgbob {
+  width: 265px;
+  height: 310px;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.div_img_sobre {
+  width: 40vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .div_img_sobre {
+    width: 90vw;
+  }
+}
+
+.imgsobre {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sobre_informacoes {
+  width: 40vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1000px) {
+  .sobre_informacoes {
+    width: 90vw;
+  }
+}
+
+.title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: center;
+}
+
+.sobre-texto {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .sobre-texto {
+    font-size: 20px;
+  }
+}
+
+#personagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.list {
+  width: 370px;
+  list-style: none;
+  text-align: left;
+}
+
+.layout-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 100px;
+  border-radius: 25px;
+}
+
+.product-photo {
+  width: 200px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 85px;
+  background-color: #fafafa;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
